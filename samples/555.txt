@@ -1,0 +1,16 @@
+accessable stable collection Mainclass
+	secret variable xs oftype int
+	accessable stable method starter returns nothing accepts nothing
+	.
+	accessable collection SubClass2
+		secret variable b oftype int
+	.
+	secret variable a and b and c oftype int
+	accessable collection SubClass3
+		secret variable c oftype int
+		accessable collection SubClass2
+			secret variable b oftype int
+		.
+	.
+	secret variable x and y oftype int
+.

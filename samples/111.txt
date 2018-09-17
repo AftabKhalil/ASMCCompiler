@@ -1,0 +1,17 @@
+accessable stable collection Mainclass
+	accessable method abc returns int accepts variable a oftype int and variable b oftype int
+		pushback 2.
+	.
+	accessable stable method starter returns nothing accepts nothing
+		variable a equals method abc with 3 and 5 end oftype int
+		variable b equals method abc with 3 and 5 end oftype int
+		is a equalto method abc with 4 and a end
+			analyze a
+				matches 4 .
+				alternative 
+						
+				.
+			.
+		.
+	.
+.

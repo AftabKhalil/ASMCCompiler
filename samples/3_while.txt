@@ -1,0 +1,12 @@
+accessable stable collection MainClass
+	secret stable method starter returns nothing accepts nothing
+		variable a equals 1 plus 2 multiply 3 oftype int
+		repeatwhile a lessthan 4
+			a inc
+			variable b equals 0 oftype int
+			repeatwhile b lessthan a
+				b inc	
+			.
+		.
+	.
+.

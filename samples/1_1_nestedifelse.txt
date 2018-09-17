@@ -1,0 +1,21 @@
+accessable stable collection Mainclass
+	accessable stable method starter returns nothing accepts nothing
+		is 4 greaterthan 2
+			is 10 equalto 20
+				variable na oftype int
+			.
+			notso is 10 equalto 30
+				variable nb oftype int
+			.
+			notso
+				variable nc oftype int
+			.
+		.
+		notso is 2 lessthan 4
+			variable b oftype int
+		.
+		notso
+			variable d oftype int
+		.
+	.
+.

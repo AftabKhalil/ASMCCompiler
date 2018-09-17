@@ -1,0 +1,22 @@
+accessable stable collection Mainclass
+	accessable stable method starter returns nothing accepts nothing 
+	.
+	accessable collection MyClass
+		secret variable dd equals 56 oftype int
+		secret variable de oftype int 
+	.
+	secret variable dd equals 56 oftype int
+	secret variable de equals 55 oftype int
+	secret method myMethod returns nothing accepts nothing
+	.
+	accessable collection MyClassT
+		secret variable dd equals 56 oftype int
+		secret variable de oftype int 
+		secret method MyClass returns nothing accepts nothing
+		.
+		secret method MyClassT accepts nothing
+		.
+		secret variable df equals 56 oftype int
+	.
+	secret variable dh equals 56 oftype int	
+.

@@ -1,0 +1,25 @@
+accessable stable collection Mainclass
+	accessable stable method starter returns nothing accepts variable b oftype int and array c oftype int
+		variable a equals 54.646 oftype float
+		variable j equals 54.646 oftype float
+	.
+	secret method myMethod returns nothing accepts nothing
+		is true
+		.
+		notso
+		.
+		analyze "dsgg"
+			matches "af" . 
+		.
+	.
+	accessable collection MyClass
+		secret method MyClass accepts nothing
+		.
+		secret method g returns int accepts array fd oftype CM and variable a oftype int
+			pushback a.
+		.
+		
+		secret variable dd equals 56 oftype int
+	.
+	secret variable dd equals 56 oftype int	
+.

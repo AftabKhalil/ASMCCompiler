@@ -1,0 +1,4 @@
+accessable stable collection MainClass
+	secret stable method starter returns nothing accepts nothing
+	.
+.

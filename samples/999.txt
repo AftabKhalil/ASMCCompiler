@@ -1,0 +1,23 @@
+accessable stable collection MainClass
+	secret array b buildwith size 4 oftype char
+	secret method MainClass accepts array a oftype int
+		
+	.
+	secret method MainClass accepts variable a oftype int
+		
+	.
+	accessable stable method starter returns nothing accepts variable b oftype int and array a oftype char
+		array s buildwith size 5 oftype int
+	.
+	secret collection SubClass
+		secret array f buildwith size 5 oftype int
+		secret method SubClass accepts nothing
+		.
+		secret method ABC returns array_char accepts nothing
+			pushback b .
+		.
+		secret method ABC returns char accepts variable a oftype int
+			pushback 'b' .
+		.
+	.
+.

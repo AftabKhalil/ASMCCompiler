@@ -1,0 +1,17 @@
+accessable stable collection MainClass
+	secret stable method starter returns nothing accepts nothing
+		variable abc oftype int
+		repeatit abc plus 3 times
+			variable a equals 2 plus 4 oftype int
+			repeatit a times
+				a inc
+				is a equalto 10
+					exit.
+				.
+			.
+			is true
+				exit.
+			.
+		.
+	.
+.

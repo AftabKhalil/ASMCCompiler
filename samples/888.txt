@@ -1,0 +1,26 @@
+accessable stable collection MainClass
+	secret method MainClass accepts nothing
+	.
+	secret method MainClass accepts array a oftype float
+	.
+	accessable stable method starter returns nothing accepts variable b oftype int
+	.
+	secret collection SubClass
+		secret collection One
+			secret method One accepts nothing
+			.
+			secret method One accepts variable a oftype int
+			.
+			secret method One accepts variable b oftype float
+			.
+			secret method Two returns nothing accepts nothing
+			.
+			secret method Two returns nothing accepts variable a oftype int
+			.
+			secret method Two returns MainClass accepts array a oftype float
+				object x buildwith a oftype MainClass
+				pushback x.
+			.
+		.
+	.
+.

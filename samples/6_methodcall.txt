@@ -1,0 +1,18 @@
+accessable stable collection MainClass
+	accessable method ab returns int accepts variable a oftype char
+		pushback 4.
+	.
+	accessable method xy returns char accepts variable a oftype char
+		pushback '4'.
+	.
+	accessable method cd returns float accepts variable a oftype char and variable b oftype char
+		pushback 4.4.
+	.
+	accessable method ef returns char accepts variable a oftype int and variable b oftype float and variable c oftype char
+		pushback 'd'.
+	. 
+	secret stable method starter returns nothing accepts nothing
+		variable abc equals method ef with method ab with method xy with 'f' end end and method cd with 's' and 'f' end and 'c' end oftype char
+	.
+	
+.

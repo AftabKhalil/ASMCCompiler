@@ -1,0 +1,30 @@
+accessable stable collection MainClass
+	secret stable method starter returns nothing accepts nothing
+		analyze "ff" plus "sfs"
+			matches "ff"
+				variable a oftype int
+			.
+			matches "33"
+				analyze 1 plus 4
+					matches 5
+						variable ia oftype float
+						exit.
+					.
+					matches 3
+						variable ib oftype float
+						is 2 equalto 2
+							exit.
+						.
+					.
+					alternative
+						variable ic oftype float
+					.
+				.
+				omit exit.
+			.
+			alternative
+				variable c oftype int
+			.
+		.
+	.
+.

@@ -1,0 +1,10 @@
+accessable stable collection MainClass
+	secret stable method starter returns nothing accepts nothing
+		variable r oftype char
+		array A buildwith size 4 another
+		      B buildwith size 2 havingelements '1' and '2' another		      	    
+		      C havingelements r and '2' and '3'  another
+		      D buildwith size 5 oftype char
+		array E buildwith size 2 havingelements 2 plus 3 and 4 plus 5 oftype int
+	.
+.

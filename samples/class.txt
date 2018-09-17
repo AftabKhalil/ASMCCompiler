@@ -1,0 +1,24 @@
+accessable stable collection Mainclass
+	accessable array afa buildwith size 54 oftype char
+	accessable method MyMethod returns int accepts variable a oftype int  and variable b oftype int
+		pushback a.
+	.
+	accessable array aga havingelements 5 and 6 and 7 and 868575 and 35 oftype int
+	accessable stable method starter returns int accepts nothing
+	.
+	
+	secret variable abc equals 44 and ff and def equals 64 and gd and gh oftype int
+	accessable method MyMethod returns nothing accepts nothing
+		
+	.
+	accessable array ghd buildwith size 54 oftype char
+	accessable stable collection NewCollection
+		secret variable abc equals 44 and ff and def equals 64 and gd and gh oftype int
+		accessable method NewCollection accepts nothing
+		.
+		secret method myMethod returns char accepts nothing
+			pushback 's'.
+		.
+	.
+	secret variable abcd equals 44 and fff and deff equals 4 oftype int
+.

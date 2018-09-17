@@ -1,0 +1,12 @@
+accessable stable collection Mainclass
+	accessable array y havingelements 1 and 2 oftype int
+	accessable stable method starter returns nothing accepts nothing
+		repeatit 10 times
+			repeatit foreach variable x oftype int belongsto y
+				is true 
+					pushback .
+				.
+			.
+		.
+	.
+.

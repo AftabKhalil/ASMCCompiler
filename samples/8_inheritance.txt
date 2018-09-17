@@ -1,0 +1,20 @@
+accessable stable collection MainClass
+	secret stable method starter returns nothing accepts nothing
+	.
+	accessable collection ABC
+		accessable variable ABC oftype int
+		accessable method aaa returns int accepts nothing
+			pushback 3.
+		.
+	.
+	accessable collection DEF achildof ABC
+		accessable method DEF accepts variable a oftype int and variable b oftype float
+		.
+		accessable variable DEF oftype int
+	.
+	accessable collection GHI
+		accessable object ob buildwith 4 and 4.4 oftype DEF
+		accessable variable GV equals ob'ABC oftype int
+		accessable variable GHI equals ob'method aaa with nothing oftype int
+	.
+.

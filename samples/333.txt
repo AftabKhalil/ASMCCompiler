@@ -1,0 +1,18 @@
+accessable stable collection Mainclass
+	secret variable a equals 3 and b and c equals 3 oftype int
+	secret array fgd havingelements 4 and 4 oftype int
+	accessable stable method starter returns nothing accepts nothing
+		variable f and g equals 5 and e oftype int
+		variable pp equals 5 oftype int
+		is 2 greaterthen 4 
+			variable h equals true andwith true oftype boolean
+		.
+		notso is false 
+			is true .
+			notso .
+		.
+		notso .
+	.
+	secret variable t equals 1 and v and w equals 3 oftype int
+	secret array ffgd havingelements 4 and 4 oftype int
+.

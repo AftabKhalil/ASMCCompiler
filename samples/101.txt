@@ -1,0 +1,15 @@
+accessable stable collection MainClass
+	accessable method mth returns int accepts variable a oftype int and variable b oftype int and variable c oftype int
+		variable x oftype int
+		array y buildwith size 10 oftype int
+		pushback x.
+	.
+	secret stable method starter returns nothing accepts nothing
+		variable a equals method mth with 1 and 3 and 5 end oftype int
+	.
+	secret method ABC returns int accepts nothing
+		object a buildwith nothing oftype MainClass
+		variable av equals method mth with 4 and 5 and 7 end oftype int
+		pushback 3.
+	.
+.
